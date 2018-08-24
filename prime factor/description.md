@@ -1,5 +1,5 @@
 # Prime Factor
-A research, somehow, by @frainmaster.
+Another research, somehow, by @frainmaster.
 
 Prime Factor
 - prime numbers that made up another non-prime number.
@@ -7,12 +7,10 @@ Prime Factor
 
 # 
 ### Program
-1. The program will prompt user to print a number, `x`. This number will be used to traverse `a` and `b` from 0 to it. So, the triples that
-is going to be created will have its `a` and `b` below `x`.
-![](https://github.com/frainmaster/mathematics/blob/master/pythagorean%20triples/2.PNG)
+1. The program will prompt user to print a number, `num`. The number will be divided right away to its prime factors.
 
-2. After the number input, the program will right away output the list of possible triples.
-![](https://github.com/frainmaster/mathematics/blob/master/pythagorean%20triples/3.PNG)
+2. The program will not stop until you put `0` as the input to end the program.
+![](https://github.com/frainmaster/mathematics/blob/master/prime%20factor/1.PNG)
 
 # 
 ### Misc
@@ -21,3 +19,7 @@ What is the prime factor of prime numbers?
 > Prime factor of prime numbers is itself.
 
 > `e.g.` : `47` is a prime number, and it is made up of `1 * 47`, and there are no other numbers that can divide `47` and give 0 balance.
+
+What will happen if I input a negative number or decimal?
+
+> It will display error message `number is not a positive integer` and will continue asking the next number.
