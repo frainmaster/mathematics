@@ -1,10 +1,10 @@
 # Pythagorean Triples
-A research by @frainmaster.
+A research, somehow, by @frainmaster.
 
 ![](https://github.com/frainmaster/mathematics/blob/master/pythagorean%20triples/1.jpeg)
 
 Pythagorean Triples
-- is a combination 3 integers, a, b and c where `a^2 + b^2 = c^2`
+- is a combination of 3 integers, a, b and c where `a^2 + b^2 = c^2`
 - it completes the sides of a right-angle triangle
 
 In this program, any triples which are multiples of a smaller triples (such as `6, 8, 10` is the multiple of `3, 4, 5`) is not being
@@ -26,6 +26,8 @@ is going to be created will have its `a` and `b` below `x`.
 How do I get to check whether a set of 3 numbers is a pythagorean triple?
 > If you check the python code at the line where it reads `if (h - int(h) == 0):`, this condition approves whether the hypotenuse generated
 by the 2 initial integers, `a` and `b`, is an integer.
+
+> You can also just change the number into string and use the `.isdigit()` method instead.
 
 How do I detect if a pythagorean triple is a multiple of a smaller triple?
 > If we observe the triples `3, 4, 5` and `6, 8, 10`, the only similarity between them is the ratio of `a:b:c`. Thus, I initialized a
