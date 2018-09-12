@@ -32,10 +32,3 @@ by the 2 initial integers, `a` and `b`, is an integer.
 How do I detect if a pythagorean triple is a multiple of a smaller triple?
 > If we observe the triples `3, 4, 5` and `6, 8, 10`, the only similarity between them is the ratio of `a:b:c`. Thus, I initialized a
 list `eg` which stores the ratio of the triples. If a ratio already existed in the list, so it's proceeding triples will not be generated.
-
-Why do I do this?
-> In Mathematics, any findings at all, whether it have a significant impact to the study itself or not, must be recorded because a problem
-as small as this can be very helpful for further research or studies.
-
-> Last 8 years I have been working this on paper, limiting my ability to get triples just up to 100. With this program, I can generate
-triples up to 10000 in seconds. Thus, it is something to me :ok_woman:
